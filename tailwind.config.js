@@ -12,7 +12,11 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ["Poppins", "sans-serif"],
+                // Body & UI bawaan menggunakan Plus Jakarta Sans
+                sans: ['"Plus Jakarta Sans"', ...defaultTheme.fontFamily.sans],
+
+                // Class khusus font-heading untuk Poppins
+                heading: ['"Poppins"', "sans-serif"],
             },
         },
     },

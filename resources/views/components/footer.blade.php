@@ -1,4 +1,4 @@
-<footer class="bg-blue-950 text-white pt-16 pb-8 border-t-4 border-sky-400 mt-16">
+<footer class="bg-blue-950 text-white pt-16 pb-8 border-t-2 border-sky-400 mt-16">
     <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
 
         <!-- Column 1: Brand Info -->
@@ -7,7 +7,7 @@
                 <span class="text-3xl">💧</span>
                 <div>
                     <span class="text-2xl font-black text-white tracking-tight">Watera</span>
-                    <span class="block text-[9px] font-semibold text-sky-300 uppercase tracking-widest -mt-1">Water
+                    <span class="block text-{10} font-semibold text-white -mt-1">Water
                         Delivery Company</span>
                 </div>
             </div>
@@ -18,7 +18,7 @@
 
         <!-- Column 2: Quick Links -->
         <div>
-            <h4 class="text-sm font-bold uppercase tracking-wider text-sky-300 mb-4">Quick Links</h4>
+            <h4 class="text-sm font-bold uppercase tracking-wider text-white mb-4">Quick Links</h4>
             <ul class="space-y-2 text-xs text-slate-300">
                 <li><a href="#" class="hover:text-white transition">About Our Company</a></li>
                 <li><a href="#" class="hover:text-white transition">Natural Mineral Water</a></li>
@@ -29,7 +29,7 @@
 
         <!-- Column 3: Contact Info -->
         <div>
-            <h4 class="text-sm font-bold uppercase tracking-wider text-sky-300 mb-4">Get In Touch</h4>
+            <h4 class="text-sm font-bold uppercase tracking-wider text-white mb-4">Get In Touch</h4>
             <ul class="space-y-2 text-xs text-slate-300">
                 <li>📍 123 Water Street, Suite 100</li>
                 <li>📞 +1 (234) 567 89 10</li>
@@ -40,7 +40,7 @@
 
         <!-- Column 4: Newsletter -->
         <div>
-            <h4 class="text-sm font-bold uppercase tracking-wider text-sky-300 mb-4">Newsletter</h4>
+            <h4 class="text-sm font-bold uppercase tracking-wider text-white mb-4">Newsletter</h4>
             <p class="text-xs text-slate-300 mb-3">Subscribe to receive discounts & updates.</p>
             <form action="#" class="flex flex-col gap-2">
                 <input type="email" placeholder="Your email address"

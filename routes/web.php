@@ -3,11 +3,15 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProdukController;
 
 // 1. Landing Page
 Route::get('/', function () {
     return view('public.beranda');
 })->name('landing');
+
+Route::get('/produk', [ProdukController::class, 'index'])->name('pelanggan.produk.index');
+Route::get('/produk/{id}', [ProdukController::class, 'show'])->name('pelanggan.produk.detail');
 
 // 2. Redirect Dashboard Berdasarkan Role
 Route::get('/dashboard', function () {
@@ -67,7 +71,13 @@ Route::middleware(['auth', 'verified'])->prefix('pelanggan')->name('pelanggan.')
     Route::get('/bayar', function () { 
         return view('dashboard.pelanggan.keranjang.bayar'); 
     })->name('keranjang.bayar');
+    
 
 });
+
+
+
+
+
 
 require __DIR__.'/auth.php';
